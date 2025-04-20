@@ -20,5 +20,6 @@ def webhook():
         }]
     }
 
-if __name__ == "__main__":
-    app.run()
+# ↓↓↓ これを消す（Renderではgunicornが起動するから不要）
+# if __name__ == "__main__":
+#     app.run()
